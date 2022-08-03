@@ -9,7 +9,7 @@ body{
     background:url("https://images.unsplash.com/photo-1613339027986-b94d85708995?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
 
     background-size: cover;
-
+    overflow: hidden;
 }
 
 h2{
@@ -31,7 +31,7 @@ h2{
 .clock span{
     width:100px;
     height: 80px;
-    background: slategray;
+    background: skyblue;
     opacity: .8;
     color:white;
     display: flex;
@@ -56,5 +56,5 @@ h2{
     width: 60px;
     height: 30px;
     font-size: 20px;
-    background: green;
+    background: rgb(226, 115, 24);
 }
