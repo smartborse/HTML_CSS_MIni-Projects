@@ -8,26 +8,18 @@ const ampmE1 = document.getElementById("ampm");
 
 function updateClock(){
 
-    let h = new Date().getHours();
-
+    let h = new Date().getHours();      //create date constructor  
     let m = new Date().getMinutes();
-
     let s = new Date().getSeconds();
-
     let ampm = "AM";
 
     if( h > 12 ){
         h = h - 12 ;
         ampm = "PM";
     }
-    else{
-        ampm = "PM"
-    }
 
-        h = h < 10 ? "0" + h : h ;
-
+        h = h < 10 ? "0" + h : h ;  // use time 8:12:9 to 08:12:09
         m = m < 10 ? "0" + m : m ;
-
         s = s < 10 ? "0" + s : s ;
         
 
